@@ -48,7 +48,7 @@ date_list = list(map(lambda x:str(x),date_list))
 
 confirm_list = list(data['confirmedCount'])
 
-time_array = np.array(range(19,len(date_list)+19))
+time_array = np.array(range(19,len(date_list)+19)) # TODO: 此处和描述不符啊
 long_time_array = np.array(range(19,len(date_list)+190))
 confirm_array = np.array(confirm_list)
  

@@ -6,11 +6,17 @@ import pyecharts.options as opts
 
 n = "dataSets/china_provincedata.csv"
 
+# 死亡率统计
 def render_mapcountChina_rate(dateId):
     data = pd.read_csv(n)
     data = data[data['dateId'] == dateId]
     #print(data['currentConfirmedCount'])
-    list_data = list(zip(list(data['provinceShortName']), list((data['deadCount']*1000 // data['confirmedCount'])/10)))
+    list_data = list(
+        zip(
+            list(data['provinceShortName']), 
+            list((data['deadCount'] * 1000 // data['confirmedCount']) / 10) # 死亡率: 话说为啥要这么算 ? 直接 deadCount / confirmedCount * 100 不就好了?
+        )
+    )
     # [('湖北', 48206), ('广东', 1241), ('河南', 1169), ('浙江', 1145), ..., ('澳门', 10), ('西藏', 1)]
 
 
@@ -27,7 +33,7 @@ def render_mapcountChina_rate(dateId):
                                             split_number=6,
                                             is_piecewise=True,  # 是否为分段型
                                             pos_top='center',
-                                            pieces=[
+                                            pieces=[ # 图例部分, 划分等级
                                                     {'min': 40, 'color': '#7f1818'},  #不指定 max
                                                     {'min': 20, 'max': 40},
                                                     {'min': 10, 'max': 20},
@@ -42,6 +48,7 @@ def render_mapcountChina_rate(dateId):
     )
     return c
 
+# 死亡人数
 def render_mapcountChina_death(dateId):
     data = pd.read_csv(n)
     data = data[data['dateId'] == dateId]
@@ -63,7 +70,7 @@ def render_mapcountChina_death(dateId):
                                             split_number=6,
                                             is_piecewise=True,  # 是否为分段型
                                             pos_top='center',
-                                            pieces=[
+                                            pieces=[ # 图例, 分级
                                                 {'min': 10000, 'color': '#7f1818'},  #不指定 max
                                                 {'min': 1000, 'max': 10000},
                                                 {'min': 500, 'max': 999},
@@ -76,11 +83,12 @@ def render_mapcountChina_death(dateId):
     return c
 
 
-def render_mapcountChina_current(dateId):
+# 确诊人数
+def render_mapcountChina_current(dateId): 
     data = pd.read_csv(n)
     data = data[data['dateId'] == dateId]
     #print(data['currentConfirmedCount'])
-    list_data = list(zip(list(data['provinceShortName']), list(data['currentConfirmedCount'])))
+    list_data = list(zip(list(data['provinceShortName']), list(data['confirmedCount'])))
     # [('湖北', 48206), ('广东', 1241), ('河南', 1169), ('浙江', 1145), ..., ('澳门', 10), ('西藏', 1)]
 
 
@@ -118,4 +126,4 @@ def render_mapcountChina(dateId,type = 0):
         return render_mapcountChina_rate(dateId)
 
 if __name__ == "__main__":
-    render_mapcountChina(20200212).render('全国疫情地图.html')
+    render_mapcountChina(20221111).render('全国疫情地图.html')

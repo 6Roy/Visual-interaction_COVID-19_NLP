@@ -4,7 +4,7 @@ from pyecharts.charts import Map
 import pyecharts.options as opts
 import math
 
-dateId = 20200401
+dateId = 20221111
 
 n = "dataSets/countrydata.csv"
 
@@ -17,7 +17,7 @@ def render_mapcountWorld_rate(dateId):
 
     world_map = (
         Map()
-        .add('', [list(z) for z in zip(world_data['countryFullName'], (world_data['deadCount']*1000 // world_data['confirmedCount'])/10)], 'world')
+        .add('', [list(z) for z in zip(world_data['Country'], (world_data['deadCount']*1000 // world_data['confirmedCount'])/10)], 'world')
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
                 # 标题
@@ -44,14 +44,14 @@ def render_mapcountWorld_rate(dateId):
 def render_mapcountWorld_death(dateId):
     world_data = pd.read_csv(n)
     world_data = world_data[world_data['dateId'] == dateId]
-    world_data = world_data[['countryFullName', 'deadCount']]
+    world_data = world_data[['Country', 'deadCount']]
 
     #print(world_data)
 
 
     world_map = (
         Map()
-        .add('', [list(z) for z in zip(world_data['countryFullName'], world_data['deadCount'])], 'world')
+        .add('', [list(z) for z in zip(world_data['Country'], world_data['deadCount'])], 'world')
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
                 # 标题
@@ -79,14 +79,14 @@ def render_mapcountWorld_current(dateId):
     world_data = pd.read_csv(n)
     world_data = world_data[world_data['dateId'] == dateId]
     # 从foreigns中选取 country和confirm 两列
-    world_data = world_data[['countryFullName', 'currentConfirmedCount']]
+    world_data = world_data[['Country', 'confirmedCount']]
 
     #print(world_data)
 
 
     world_map = (
         Map()
-        .add('', [list(z) for z in zip(world_data['countryFullName'], world_data['currentConfirmedCount'])], 'world')
+        .add('', [list(z) for z in zip(world_data['Country'], world_data['confirmedCount'])], 'world')
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
                 # 标题

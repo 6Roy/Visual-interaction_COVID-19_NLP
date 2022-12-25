@@ -16,10 +16,13 @@ from myScripts.jiebafenci import render_wordcloud
 from myScripts.weiboAnalyse import weiboWordcloud
 
 n = "dataSets/countrydata.csv"
+m = "dataSets/china_provincedata.csv"
 data = pd.read_csv(n)
-date_list = list(data[data['countryName'] == '中国']['dateId'])
-countrylist = list(data[data['dateId'] == 20200412]['countryName'])
-countrylist = ['中国']+countrylist
+data2 = pd.read_csv(m)
+date_list = list(data2['dateId'])
+print(len(date_list))
+countrylist = list(data[data['dateId'] == 20221111]['Country'])
+countrylist = ['China']+countrylist
 #print(date_list)
 #print(countrylist)
 
