@@ -13,7 +13,7 @@ importlib.reload(sys)
 startTime = time.time() #记录起始时间
 
 #--------------------------------------------文件存储-----------------------------------------------------
-path = os.getcwd() + "/weiboComments.csv"
+path = os.getcwd() + "/weiboComments2022.csv"
 csvfile = open(path, 'a', newline='', encoding = 'utf-8-sig')
 writer = csv.writer(csvfile)
 #csv头部

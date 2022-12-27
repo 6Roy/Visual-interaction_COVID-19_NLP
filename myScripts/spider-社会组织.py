@@ -15,7 +15,7 @@ fp.close()
 #----------------------------------------------抓取数据----------------------------------------------
 def spider_html_info(url):
     time.sleep(random.randint(1000,2000)/1000.0)
-    fp = open('中国社会组织_疫情防控.csv','a',newline='',encoding='utf-8-sig')
+    fp = open('中国社会组织_疫情防控2022.csv','a',newline='',encoding='utf-8-sig')
     writer = csv.writer(fp)
     try:
         headers = {

@@ -21,6 +21,8 @@ writer.writerow(('序号','文章标题','发布时间','文章链接','文章�
 #--------------------------------------------疫情快讯-数据抓取---------------------------------------------
 url = "http://society.people.com.cn/GB/369130/431577/431608/index.html"
 driver = webdriver.Chrome() #chromedriver.exe置于python37根目录
+# driver = webdriver.Chrome(r'd:\xxx\chromedriver.exe')
+
 driver.implicitly_wait(5)
 chrome_option = webdriver.ChromeOptions()
 driver.get(url) #打开网页网页
