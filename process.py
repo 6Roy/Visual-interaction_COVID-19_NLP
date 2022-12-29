@@ -22,8 +22,6 @@ from myScripts.wordData import date_data
 
 # settings
 
-K = 200 # top-200
-
 # %%
 data = defaultdict(int)
 for paper in date_data:
@@ -32,23 +30,30 @@ for paper in date_data:
 
 data = list(data.items())
 data = sorted(data, reverse=True, key=lambda x: x[1])
-data = data[:K]
+data = data 
 # %%
 
 old = content[51:1853]
 # %%
 
-count = 0
-for line in old:
-    if 'name' in line:
-        name, value = data[count]
-        old[count] =  template_name.format(name)
-        old[count+1] = template_value.format(value)
+try:
+    count = 0
+    for i, line in enumerate(old):
+        if 'name' in line:
+            name, value = data[count]
+            old[i] =  template_name.format(name)
+            old[i+1] = template_value.format(value)
+            count += 1
+except IndexError:
+    pass
 
 content = content[:51] + old + content[1853:]
 
 # %%
 
-with open('wordcloud.js', 'w') as f:
+with open('wordcloud.js', 'w', encoding='utf-8') as f:
     for line in content:
         f.write(line)
+
+
+# %%
