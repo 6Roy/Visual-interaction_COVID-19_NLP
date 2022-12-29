@@ -39,7 +39,7 @@ old = content[51:1853]
 # %%
 
 count = 0
-for line in enumerate(old):
+for line in old:
     if 'name' in line:
         name, value = data[count]
         old[count] =  template_name.format(name)
