@@ -13,16 +13,16 @@ def generatewordData(percent):
     cut_words = ""
     all_words = ""
 
-    data = pd.read_csv('dataSets/中国社会组织_疫情防控-5_21.csv')
+    data = pd.read_csv('dataSets\\yqkx_data-5_21.csv') #100*5
 
     percent = percent / 10
-    num = data.shape[0]/10
-    data = data.iloc[int(num*percent):int(num*percent+num),]
+    num = data.shape[0]/10 #100/10
+    data = data.iloc[int(num*percent):int(num*percent+num),] #data.iloc[ 0:2 ,1:2 ] # 取第0-2行和1-2列交叉的所有的数据  10*5 5.8-4.21
     print(data.shape[0])
-    print(list(data['时间'])[0])
-    print(list(data['时间'])[-1])
+    print(list(data['发布时间'])[0])
+    print(list(data['发布时间'])[-1])
 
-    for line in data['正文内容']:
+    for line in data['文章内容']:
         line = str(line)
         seg_list = jieba.cut(line,cut_all=False)
         cut_words = (" ".join(seg_list))
@@ -43,7 +43,7 @@ def generatewordData(percent):
         # print(k, v)
         words.append((k,v))
     words = words[1:]
-    return words,list(data['时间'])[0],list(data['时间'])[-1]
+    return words,list(data['发布时间'])[0],list(data['发布时间'])[-1]
 
 # 渲染图
 
@@ -66,7 +66,7 @@ def render_wordcloud(percent = 0) -> WordCloud:
 # 生成图
 if __name__ == "__main__":
     date_words = []
-    for i in range(0,91):
+    for i in range(0,100):
         print(i)
         words,date_start,date_end = generatewordData(i)
         date_words.append([words,date_start,date_end])
@@ -74,3 +74,6 @@ if __name__ == "__main__":
         f.write("date_data="+str(date_words))
         f.close()
 
+
+# c=render_wordcloud()
+# c.render_notebook()

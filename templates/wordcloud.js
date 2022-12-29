@@ -51,8 +51,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
     ],
     "data": [
         {
-            "name": "\u75ab\u60c5",
-            "value": 25038,
+            "name": "确诊",
+            "value": 3897,
             "textStyle": {
                 "normal": {
                     "color": "rgb(108,113,64)"
@@ -60,8 +60,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u9632\u63a7",
-            "value": 18251,
+            "name": "累计",
+            "value": 3595,
             "textStyle": {
                 "normal": {
                     "color": "rgb(116,28,65)"
@@ -69,8 +69,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7ec4\u7ec7",
-            "value": 12581,
+            "name": "新增",
+            "value": 3567,
             "textStyle": {
                 "normal": {
                     "color": "rgb(45,110,11)"
@@ -78,8 +78,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5de5\u4f5c",
-            "value": 12159,
+            "name": "武汉",
+            "value": 3368,
             "textStyle": {
                 "normal": {
                     "color": "rgb(6,21,125)"
@@ -87,8 +87,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u793e\u4f1a",
-            "value": 11636,
+            "name": "出院",
+            "value": 3140,
             "textStyle": {
                 "normal": {
                     "color": "rgb(64,70,70)"
@@ -96,8 +96,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f01\u4e1a",
-            "value": 8742,
+            "name": "死亡",
+            "value": 2087,
             "textStyle": {
                 "normal": {
                     "color": "rgb(160,26,21)"
@@ -105,8 +105,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u534f\u4f1a",
-            "value": 7644,
+            "name": "其中",
+            "value": 1847,
             "textStyle": {
                 "normal": {
                     "color": "rgb(113,86,28)"
@@ -114,8 +114,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6350\u8d60",
-            "value": 6792,
+            "name": "疫情",
+            "value": 1727,
             "textStyle": {
                 "normal": {
                     "color": "rgb(52,108,146)"
@@ -123,8 +123,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u670d\u52a1",
-            "value": 6612,
+            "name": "24",
+            "value": 1707,
             "textStyle": {
                 "normal": {
                     "color": "rgb(129,130,90)"
@@ -132,8 +132,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7269\u8d44",
-            "value": 5144,
+            "name": "治愈",
+            "value": 1693,
             "textStyle": {
                 "normal": {
                     "color": "rgb(109,23,34)"
@@ -141,8 +141,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u79ef\u6781",
-            "value": 4920,
+            "name": "疑似病例",
+            "value": 1692,
             "textStyle": {
                 "normal": {
                     "color": "rgb(61,55,135)"
@@ -150,8 +150,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e07\u5143",
-            "value": 4729,
+            "name": "报告",
+            "value": 1651,
             "textStyle": {
                 "normal": {
                     "color": "rgb(141,69,121)"
@@ -159,8 +159,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u80ba\u708e",
-            "value": 4421,
+            "name": "现有",
+            "value": 1610,
             "textStyle": {
                 "normal": {
                     "color": "rgb(74,47,46)"
@@ -168,8 +168,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u9632\u75ab",
-            "value": 4251,
+            "name": "防控",
+            "value": 1287,
             "textStyle": {
                 "normal": {
                     "color": "rgb(6,86,131)"
@@ -177,8 +177,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u505a\u597d",
-            "value": 4134,
+            "name": "输入",
+            "value": 1205,
             "textStyle": {
                 "normal": {
                     "color": "rgb(61,94,20)"
@@ -186,8 +186,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f1a\u5458",
-            "value": 3971,
+            "name": "密切接触",
+            "value": 1187,
             "textStyle": {
                 "normal": {
                     "color": "rgb(86,34,136)"
@@ -195,8 +195,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u793e\u533a",
-            "value": 3879,
+            "name": "境外",
+            "value": 1165,
             "textStyle": {
                 "normal": {
                     "color": "rgb(114,97,64)"
@@ -204,8 +204,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u590d\u5de5",
-            "value": 3744,
+            "name": "重症",
+            "value": 1155,
             "textStyle": {
                 "normal": {
                     "color": "rgb(98,77,159)"
@@ -213,8 +213,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53e3\u7f69",
-            "value": 3692,
+            "name": "人员",
+            "value": 887,
             "textStyle": {
                 "normal": {
                     "color": "rgb(17,54,81)"
@@ -222,8 +222,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5f00\u5c55",
-            "value": 3571,
+            "name": "责编",
+            "value": 844,
             "textStyle": {
                 "normal": {
                     "color": "rgb(136,83,103)"
@@ -231,8 +231,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u65b0\u578b",
-            "value": 3405,
+            "name": "北京",
+            "value": 790,
             "textStyle": {
                 "normal": {
                     "color": "rgb(20,41,31)"
@@ -240,8 +240,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6148\u5584",
-            "value": 3402,
+            "name": "医学观察",
+            "value": 776,
             "textStyle": {
                 "normal": {
                     "color": "rgb(40,35,11)"
@@ -249,8 +249,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u51a0\u72b6\u75c5\u6bd2",
-            "value": 3260,
+            "name": "湖北",
+            "value": 741,
             "textStyle": {
                 "normal": {
                     "color": "rgb(139,85,126)"
@@ -258,8 +258,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5546\u4f1a",
-            "value": 3196,
+            "name": "医院",
+            "value": 740,
             "textStyle": {
                 "normal": {
                     "color": "rgb(110,109,157)"
@@ -267,8 +267,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u63d0\u4f9b",
-            "value": 3149,
+            "name": "患者",
+            "value": 701,
             "textStyle": {
                 "normal": {
                     "color": "rgb(62,25,50)"
@@ -276,8 +276,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u884c\u4e1a",
-            "value": 3146,
+            "name": "31",
+            "value": 681,
             "textStyle": {
                 "normal": {
                     "color": "rgb(77,137,125)"
@@ -285,8 +285,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53c2\u4e0e",
-            "value": 3138,
+            "name": "肺炎",
+            "value": 674,
             "textStyle": {
                 "normal": {
                     "color": "rgb(81,135,23)"
@@ -294,8 +294,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6297\u51fb",
-            "value": 3032,
+            "name": "武汉市",
+            "value": 670,
             "textStyle": {
                 "normal": {
                     "color": "rgb(21,13,82)"
@@ -303,8 +303,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e00\u7ebf",
-            "value": 2985,
+            "name": "截至",
+            "value": 642,
             "textStyle": {
                 "normal": {
                     "color": "rgb(104,67,91)"
@@ -312,8 +312,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5fd7\u613f\u8005",
-            "value": 2919,
+            "name": "10",
+            "value": 616,
             "textStyle": {
                 "normal": {
                     "color": "rgb(51,135,65)"
@@ -321,8 +321,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5ba3\u4f20",
-            "value": 2823,
+            "name": "检测",
+            "value": 612,
             "textStyle": {
                 "normal": {
                     "color": "rgb(90,103,97)"
@@ -330,8 +330,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u901a\u8fc7",
-            "value": 2787,
+            "name": "中国",
+            "value": 545,
             "textStyle": {
                 "normal": {
                     "color": "rgb(45,60,18)"
@@ -339,8 +339,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u533b\u9662",
-            "value": 2561,
+            "name": "新疆生产建设兵团",
+            "value": 515,
             "textStyle": {
                 "normal": {
                     "color": "rgb(89,156,153)"
@@ -348,8 +348,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4eba\u5458",
-            "value": 2536,
+            "name": "个省",
+            "value": 509,
             "textStyle": {
                 "normal": {
                     "color": "rgb(130,66,80)"
@@ -357,8 +357,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8981\u6c42",
-            "value": 2471,
+            "name": "自治区",
+            "value": 509,
             "textStyle": {
                 "normal": {
                     "color": "rgb(28,111,120)"
@@ -366,8 +366,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6350\u6b3e",
-            "value": 2463,
+            "name": "直辖市",
+            "value": 509,
             "textStyle": {
                 "normal": {
                     "color": "rgb(144,6,121)"
@@ -375,8 +375,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5fc3\u7406",
-            "value": 2438,
+            "name": "隔离",
+            "value": 505,
             "textStyle": {
                 "normal": {
                     "color": "rgb(39,156,20)"
@@ -384,8 +384,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f1a\u5458\u5355\u4f4d",
-            "value": 2426,
+            "name": "工作",
+            "value": 494,
             "textStyle": {
                 "normal": {
                     "color": "rgb(21,157,40)"
@@ -393,8 +393,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u884c\u4e1a\u534f\u4f1a",
-            "value": 2399,
+            "name": "日电",
+            "value": 467,
             "textStyle": {
                 "normal": {
                     "color": "rgb(70,38,8)"
@@ -402,8 +402,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5355\u4f4d",
-            "value": 2293,
+            "name": "宜昌市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(159,132,116)"
@@ -411,8 +411,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u9632\u62a4",
-            "value": 2224,
+            "name": "荆门市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(52,27,72)"
@@ -420,8 +420,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u590d\u4ea7",
-            "value": 2215,
+            "name": "孝感市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(120,88,58)"
@@ -429,8 +429,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u611f\u67d3",
-            "value": 2212,
+            "name": "黄石市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(48,140,158)"
@@ -438,8 +438,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7231\u5fc3",
-            "value": 2210,
+            "name": "襄阳",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(17,120,39)"
@@ -447,8 +447,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u76f8\u5173",
-            "value": 2201,
+            "name": "荆州市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(148,133,17)"
@@ -456,8 +456,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5173\u4e8e",
-            "value": 2184,
+            "name": "鄂州市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(70,87,105)"
@@ -465,8 +465,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8fdb\u884c",
-            "value": 2178,
+            "name": "黄冈市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(127,66,120)"
@@ -474,8 +474,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u516c\u76ca",
-            "value": 2150,
+            "name": "随州市",
+            "value": 427,
             "textStyle": {
                 "normal": {
                     "color": "rgb(62,104,25)"
@@ -483,8 +483,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53ca\u65f6",
-            "value": 2113,
+            "name": "人民网",
+            "value": 419,
             "textStyle": {
                 "normal": {
                     "color": "rgb(42,117,63)"
@@ -492,8 +492,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6d3b\u52a8",
-            "value": 2065,
+            "name": "天门市",
+            "value": 416,
             "textStyle": {
                 "normal": {
                     "color": "rgb(48,104,11)"
@@ -501,8 +501,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53d1\u6325",
-            "value": 2052,
+            "name": "新冠",
+            "value": 399,
             "textStyle": {
                 "normal": {
                     "color": "rgb(124,105,115)"
@@ -510,8 +510,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5021\u8bae",
-            "value": 1998,
+            "name": "十堰市",
+            "value": 398,
             "textStyle": {
                 "normal": {
                     "color": "rgb(103,76,146)"
@@ -519,8 +519,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4fdd\u969c",
-            "value": 1997,
+            "name": "仙桃市",
+            "value": 398,
             "textStyle": {
                 "normal": {
                     "color": "rgb(100,106,11)"
@@ -528,8 +528,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u652f\u6301",
-            "value": 1944,
+            "name": "潜江市",
+            "value": 390,
             "textStyle": {
                 "normal": {
                     "color": "rgb(116,106,107)"
@@ -537,8 +537,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5f15\u5bfc",
-            "value": 1924,
+            "name": "咸宁市",
+            "value": 390,
             "textStyle": {
                 "normal": {
                     "color": "rgb(147,76,156)"
@@ -546,8 +546,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8d23\u4efb",
-            "value": 1902,
+            "name": "恩施州",
+            "value": 390,
             "textStyle": {
                 "normal": {
                     "color": "rgb(52,131,139)"
@@ -555,8 +555,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6b66\u6c49",
-            "value": 1888,
+            "name": "12",
+            "value": 378,
             "textStyle": {
                 "normal": {
                     "color": "rgb(80,160,43)"
@@ -564,8 +564,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6709\u5e8f",
-            "value": 1847,
+            "name": "当日",
+            "value": 372,
             "textStyle": {
                 "normal": {
                     "color": "rgb(127,1,129)"
@@ -573,8 +573,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53d1\u51fa",
-            "value": 1847,
+            "name": "消息",
+            "value": 355,
             "textStyle": {
                 "normal": {
                     "color": "rgb(122,100,4)"
@@ -582,8 +582,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u52a8\u5458",
-            "value": 1832,
+            "name": "健康",
+            "value": 337,
             "textStyle": {
                 "normal": {
                     "color": "rgb(68,2,44)"
@@ -591,8 +591,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u52a0\u5f3a",
-            "value": 1821,
+            "name": "神农架林区",
+            "value": 328,
             "textStyle": {
                 "normal": {
                     "color": "rgb(55,49,151)"
@@ -600,8 +600,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u60c5\u51b5",
-            "value": 1791,
+            "name": "国家",
+            "value": 317,
             "textStyle": {
                 "normal": {
                     "color": "rgb(83,79,72)"
@@ -609,8 +609,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7ba1\u7406",
-            "value": 1773,
+            "name": "无症状",
+            "value": 312,
             "textStyle": {
                 "normal": {
                     "color": "rgb(122,26,114)"
@@ -618,8 +618,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u673a\u6784",
-            "value": 1741,
+            "name": "解除",
+            "value": 308,
             "textStyle": {
                 "normal": {
                     "color": "rgb(123,152,159)"
@@ -627,8 +627,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6297\u75ab",
-            "value": 1729,
+            "name": "感染者",
+            "value": 307,
             "textStyle": {
                 "normal": {
                     "color": "rgb(125,122,66)"
@@ -636,8 +636,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4fe1\u606f",
-            "value": 1717,
+            "name": "机构",
+            "value": 263,
             "textStyle": {
                 "normal": {
                     "color": "rgb(128,133,62)"
@@ -645,8 +645,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u90e8\u7f72",
-            "value": 1683,
+            "name": "记者",
+            "value": 262,
             "textStyle": {
                 "normal": {
                     "color": "rgb(40,74,115)"
@@ -654,8 +654,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5fd7\u613f",
-            "value": 1679,
+            "name": "进行",
+            "value": 261,
             "textStyle": {
                 "normal": {
                     "color": "rgb(122,159,159)"
@@ -663,8 +663,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53d1\u5e03",
-            "value": 1670,
+            "name": "老人",
+            "value": 254,
             "textStyle": {
                 "normal": {
                     "color": "rgb(89,135,55)"
@@ -672,8 +672,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u57fa\u91d1\u4f1a",
-            "value": 1633,
+            "name": "湖北省",
+            "value": 252,
             "textStyle": {
                 "normal": {
                     "color": "rgb(150,87,15)"
@@ -681,8 +681,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u751f\u4ea7",
-            "value": 1632,
+            "name": "25",
+            "value": 251,
             "textStyle": {
                 "normal": {
                     "color": "rgb(94,126,68)"
@@ -690,8 +690,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e2d\u56fd",
-            "value": 1589,
+            "name": "使馆",
+            "value": 250,
             "textStyle": {
                 "normal": {
                     "color": "rgb(26,116,98)"
@@ -699,8 +699,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5168\u5e02",
-            "value": 1580,
+            "name": "核酸",
+            "value": 246,
             "textStyle": {
                 "normal": {
                     "color": "rgb(75,13,18)"
@@ -708,8 +708,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u515a\u5458",
-            "value": 1580,
+            "name": "张笑",
+            "value": 240,
             "textStyle": {
                 "normal": {
                     "color": "rgb(66,134,69)"
@@ -717,8 +717,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u529b\u91cf",
-            "value": 1512,
+            "name": "他们",
+            "value": 239,
             "textStyle": {
                 "normal": {
                     "color": "rgb(76,124,94)"
@@ -726,8 +726,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u533b\u7528",
-            "value": 1488,
+            "name": "公民",
+            "value": 230,
             "textStyle": {
                 "normal": {
                     "color": "rgb(66,122,93)"
@@ -735,8 +735,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6253\u8d62",
-            "value": 1484,
+            "name": "养老",
+            "value": 226,
             "textStyle": {
                 "normal": {
                     "color": "rgb(87,11,130)"
@@ -744,8 +744,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e13\u4e1a",
-            "value": 1463,
+            "name": "单位",
+            "value": 217,
             "textStyle": {
                 "normal": {
                     "color": "rgb(6,135,47)"
@@ -753,8 +753,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53d1\u5c55",
-            "value": 1461,
+            "name": "23",
+            "value": 208,
             "textStyle": {
                 "normal": {
                     "color": "rgb(111,112,153)"
@@ -762,8 +762,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u671f\u95f4",
-            "value": 1457,
+            "name": "福利院",
+            "value": 205,
             "textStyle": {
                 "normal": {
                     "color": "rgb(120,117,97)"
@@ -771,8 +771,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u963b\u51fb\u6218",
-            "value": 1447,
+            "name": "例为",
+            "value": 204,
             "textStyle": {
                 "normal": {
                     "color": "rgb(113,58,73)"
@@ -780,8 +780,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u540c\u65f6",
-            "value": 1446,
+            "name": "岳弘彬",
+            "value": 202,
             "textStyle": {
                 "normal": {
                     "color": "rgb(57,75,150)"
@@ -789,8 +789,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6709\u9650\u516c\u53f8",
-            "value": 1427,
+            "name": "社区",
+            "value": 201,
             "textStyle": {
                 "normal": {
                     "color": "rgb(90,140,124)"
@@ -798,8 +798,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u670d\u52a1\u4e2d\u5fc3",
-            "value": 1408,
+            "name": "14",
+            "value": 198,
             "textStyle": {
                 "normal": {
                     "color": "rgb(133,23,73)"
@@ -807,8 +807,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6d88\u6bd2",
-            "value": 1399,
+            "name": "医患",
+            "value": 190,
             "textStyle": {
                 "normal": {
                     "color": "rgb(63,14,73)"
@@ -816,8 +816,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u793e\u5de5",
-            "value": 1377,
+            "name": "26",
+            "value": 171,
             "textStyle": {
                 "normal": {
                     "color": "rgb(2,94,16)"
@@ -825,8 +825,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8054\u5408",
-            "value": 1372,
+            "name": "全省",
+            "value": 171,
             "textStyle": {
                 "normal": {
                     "color": "rgb(70,146,29)"
@@ -834,8 +834,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f18\u52bf",
-            "value": 1358,
+            "name": "减少",
+            "value": 162,
             "textStyle": {
                 "normal": {
                     "color": "rgb(88,0,90)"
@@ -843,8 +843,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53f7\u53ec",
-            "value": 1350,
+            "name": "响应",
+            "value": 160,
             "textStyle": {
                 "normal": {
                     "color": "rgb(0,38,14)"
@@ -852,8 +852,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e2d\u5fc3",
-            "value": 1345,
+            "name": "中医药",
+            "value": 160,
             "textStyle": {
                 "normal": {
                     "color": "rgb(75,6,123)"
@@ -861,8 +861,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u52a9\u529b",
-            "value": 1335,
+            "name": "民警",
+            "value": 160,
             "textStyle": {
                 "normal": {
                     "color": "rgb(64,22,112)"
@@ -870,8 +870,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e3b\u52a8",
-            "value": 1333,
+            "name": "企业",
+            "value": 157,
             "textStyle": {
                 "normal": {
                     "color": "rgb(80,94,85)"
@@ -879,8 +879,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u534f\u52a9",
-            "value": 1330,
+            "name": "所有",
+            "value": 148,
             "textStyle": {
                 "normal": {
                     "color": "rgb(66,159,16)"
@@ -888,8 +888,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6c11\u653f\u5c40",
-            "value": 1327,
+            "name": "照顾",
+            "value": 146,
             "textStyle": {
                 "normal": {
                     "color": "rgb(132,85,47)"
@@ -897,8 +897,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u884c\u52a8",
-            "value": 1310,
+            "name": "返还",
+            "value": 140,
             "textStyle": {
                 "normal": {
                     "color": "rgb(109,153,124)"
@@ -906,8 +906,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u65b0\u51a0",
-            "value": 1309,
+            "name": "关系",
+            "value": 140,
             "textStyle": {
                 "normal": {
                     "color": "rgb(29,4,100)"
@@ -915,8 +915,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7d2f\u8ba1",
-            "value": 1296,
+            "name": "乐乐",
+            "value": 140,
             "textStyle": {
                 "normal": {
                     "color": "rgb(23,134,89)"
@@ -924,8 +924,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u603b\u4f1a",
-            "value": 1296,
+            "name": "车辆",
+            "value": 136,
             "textStyle": {
                 "normal": {
                     "color": "rgb(117,10,110)"
@@ -933,8 +933,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4ef7\u503c",
-            "value": 1295,
+            "name": "医护人员",
+            "value": 133,
             "textStyle": {
                 "normal": {
                     "color": "rgb(32,130,135)"
@@ -942,8 +942,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u843d\u5b9e",
-            "value": 1287,
+            "name": "媒体",
+            "value": 132,
             "textStyle": {
                 "normal": {
                     "color": "rgb(118,10,151)"
@@ -951,8 +951,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6e56\u5317",
-            "value": 1285,
+            "name": "核减",
+            "value": 131,
             "textStyle": {
                 "normal": {
                     "color": "rgb(83,19,84)"
@@ -960,8 +960,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u63aa\u65bd",
-            "value": 1283,
+            "name": "有序",
+            "value": 130,
             "textStyle": {
                 "normal": {
                     "color": "rgb(130,63,79)"
@@ -969,8 +969,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6307\u5bfc",
-            "value": 1272,
+            "name": "设备",
+            "value": 130,
             "textStyle": {
                 "normal": {
                     "color": "rgb(81,80,43)"
@@ -978,8 +978,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6709\u5173",
-            "value": 1267,
+            "name": "管理",
+            "value": 128,
             "textStyle": {
                 "normal": {
                     "color": "rgb(116,3,156)"
@@ -987,8 +987,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7528\u4e8e",
-            "value": 1263,
+            "name": "铁路",
+            "value": 126,
             "textStyle": {
                 "normal": {
                     "color": "rgb(154,10,57)"
@@ -996,8 +996,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u901a\u77e5",
-            "value": 1262,
+            "name": "医疗",
+            "value": 123,
             "textStyle": {
                 "normal": {
                     "color": "rgb(76,109,57)"
@@ -1005,8 +1005,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u533b\u7597",
-            "value": 1246,
+            "name": "医生",
+            "value": 122,
             "textStyle": {
                 "normal": {
                     "color": "rgb(49,116,97)"
@@ -1014,8 +1014,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f5c\u7528",
-            "value": 1235,
+            "name": "地区",
+            "value": 122,
             "textStyle": {
                 "normal": {
                     "color": "rgb(100,67,104)"
@@ -1023,8 +1023,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u90e8\u95e8",
-            "value": 1232,
+            "name": "卫健委",
+            "value": 121,
             "textStyle": {
                 "normal": {
                     "color": "rgb(7,134,62)"
@@ -1032,8 +1032,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7fa4\u4f17",
-            "value": 1228,
+            "name": "小汤山",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(134,89,151)"
@@ -1041,8 +1041,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5065\u5eb7",
-            "value": 1223,
+            "name": "城乡",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(72,83,21)"
@@ -1050,8 +1050,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u914d\u5408",
-            "value": 1214,
+            "name": "工作者",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(96,74,13)"
@@ -1059,8 +1059,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u65f6\u95f4",
-            "value": 1213,
+            "name": "捐赠",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(85,88,120)"
@@ -1068,8 +1068,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u767b\u8bb0",
-            "value": 1210,
+            "name": "CT",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(31,27,67)"
@@ -1077,8 +1077,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5de5\u4f5c\u4eba\u5458",
-            "value": 1205,
+            "name": "影像",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(83,119,42)"
@@ -1086,8 +1086,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u81ea\u8eab",
-            "value": 1198,
+            "name": "俄方",
+            "value": 120,
             "textStyle": {
                 "normal": {
                     "color": "rgb(153,51,150)"
@@ -1095,8 +1095,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u52df\u6350",
-            "value": 1192,
+            "name": "救治",
+            "value": 119,
             "textStyle": {
                 "normal": {
                     "color": "rgb(86,61,69)"
@@ -1104,8 +1104,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5e2e\u52a9",
-            "value": 1184,
+            "name": "19",
+            "value": 119,
             "textStyle": {
                 "normal": {
                     "color": "rgb(73,83,124)"
@@ -1113,8 +1113,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5b89\u5168",
-            "value": 1182,
+            "name": "人民",
+            "value": 116,
             "textStyle": {
                 "normal": {
                     "color": "rgb(57,142,35)"
@@ -1122,8 +1122,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5e73\u53f0",
-            "value": 1166,
+            "name": "资金",
+            "value": 116,
             "textStyle": {
                 "normal": {
                     "color": "rgb(115,5,73)"
@@ -1131,8 +1131,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5e94\u6025",
-            "value": 1136,
+            "name": "方案",
+            "value": 114,
             "textStyle": {
                 "normal": {
                     "color": "rgb(119,67,155)"
@@ -1140,8 +1140,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6d88\u6bd2\u6db2",
-            "value": 1130,
+            "name": "防疫",
+            "value": 114,
             "textStyle": {
                 "normal": {
                     "color": "rgb(139,108,141)"
@@ -1149,8 +1149,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5e7f\u5927",
-            "value": 1128,
+            "name": "增加",
+            "value": 113,
             "textStyle": {
                 "normal": {
                     "color": "rgb(151,81,42)"
@@ -1158,8 +1158,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f5c\u4e3a",
-            "value": 1118,
+            "name": "本土",
+            "value": 112,
             "textStyle": {
                 "normal": {
                     "color": "rgb(103,137,116)"
@@ -1167,8 +1167,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u77e5\u8bc6",
-            "value": 1116,
+            "name": "壮壮",
+            "value": 110,
             "textStyle": {
                 "normal": {
                     "color": "rgb(52,118,157)"
@@ -1176,8 +1176,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5021\u8bae\u4e66",
-            "value": 1097,
+            "name": "妈妈",
+            "value": 110,
             "textStyle": {
                 "normal": {
                     "color": "rgb(31,128,8)"
@@ -1185,8 +1185,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u653f\u5e9c",
-            "value": 1096,
+            "name": "孩子",
+            "value": 110,
             "textStyle": {
                 "normal": {
                     "color": "rgb(108,27,129)"
@@ -1194,8 +1194,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5458\u5de5",
-            "value": 1087,
+            "name": "20",
+            "value": 106,
             "textStyle": {
                 "normal": {
                     "color": "rgb(31,10,160)"
@@ -1203,8 +1203,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7ebf\u4e0a",
-            "value": 1084,
+            "name": "追踪",
+            "value": 104,
             "textStyle": {
                 "normal": {
                     "color": "rgb(17,28,103)"
@@ -1212,8 +1212,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u622a\u81f3",
-            "value": 1079,
+            "name": "办公",
+            "value": 100,
             "textStyle": {
                 "normal": {
                     "color": "rgb(54,150,126)"
@@ -1221,8 +1221,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u79d1\u5b66",
-            "value": 1074,
+            "name": "万元",
+            "value": 100,
             "textStyle": {
                 "normal": {
                     "color": "rgb(105,83,99)"
@@ -1230,8 +1230,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "10",
-            "value": 1072,
+            "name": "通报",
+            "value": 98,
             "textStyle": {
                 "normal": {
                     "color": "rgb(56,57,121)"
@@ -1239,8 +1239,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4eba\u6c11",
-            "value": 1067,
+            "name": "为了",
+            "value": 98,
             "textStyle": {
                 "normal": {
                     "color": "rgb(18,148,85)"
@@ -1248,8 +1248,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u65b9\u5f0f",
-            "value": 1066,
+            "name": "已经",
+            "value": 97,
             "textStyle": {
                 "normal": {
                     "color": "rgb(103,102,57)"
@@ -1257,8 +1257,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u76ee\u524d",
-            "value": 1059,
+            "name": "港澳台地区",
+            "value": 91,
             "textStyle": {
                 "normal": {
                     "color": "rgb(125,150,56)"
@@ -1266,8 +1266,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u515a\u59d4",
-            "value": 1053,
+            "name": "仪器设备",
+            "value": 90,
             "textStyle": {
                 "normal": {
                     "color": "rgb(108,3,64)"
@@ -1275,8 +1275,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u62c5\u5f53",
-            "value": 1049,
+            "name": "西方",
+            "value": 90,
             "textStyle": {
                 "normal": {
                     "color": "rgb(113,37,86)"
@@ -1284,8 +1284,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u793e\u4f1a\u5de5\u4f5c",
-            "value": 1048,
+            "name": "神山",
+            "value": 90,
             "textStyle": {
                 "normal": {
                     "color": "rgb(76,95,79)"
@@ -1293,8 +1293,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u515a\u7ec4\u7ec7",
-            "value": 1024,
+            "name": "血浆",
+            "value": 88,
             "textStyle": {
                 "normal": {
                     "color": "rgb(16,60,137)"
@@ -1302,8 +1302,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5168\u7701",
-            "value": 1011,
+            "name": "收到",
+            "value": 84,
             "textStyle": {
                 "normal": {
                     "color": "rgb(109,137,111)"
@@ -1311,8 +1311,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7b2c\u4e00",
-            "value": 1010,
+            "name": "香港特别行政区",
+            "value": 84,
             "textStyle": {
                 "normal": {
                     "color": "rgb(64,22,130)"
@@ -1320,8 +1320,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u575a\u51b3",
-            "value": 1002,
+            "name": "澳门特别行政区",
+            "value": 84,
             "textStyle": {
                 "normal": {
                     "color": "rgb(97,51,99)"
@@ -1329,8 +1329,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u514d\u8d39",
-            "value": 988,
+            "name": "流动",
+            "value": 80,
             "textStyle": {
                 "normal": {
                     "color": "rgb(67,143,141)"
@@ -1338,8 +1338,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5145\u5206\u53d1\u6325",
-            "value": 987,
+            "name": "应勇",
+            "value": 80,
             "textStyle": {
                 "normal": {
                     "color": "rgb(131,21,130)"
@@ -1347,8 +1347,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u91cd\u8981",
-            "value": 977,
+            "name": "值守",
+            "value": 77,
             "textStyle": {
                 "normal": {
                     "color": "rgb(145,36,114)"
@@ -1356,8 +1356,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u515a\u652f\u90e8",
-            "value": 970,
+            "name": "级别",
+            "value": 76,
             "textStyle": {
                 "normal": {
                     "color": "rgb(103,109,18)"
@@ -1365,8 +1365,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u96c6\u56e2",
-            "value": 947,
+            "name": "本地",
+            "value": 76,
             "textStyle": {
                 "normal": {
                     "color": "rgb(140,91,148)"
@@ -1374,8 +1374,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u95ee\u9898",
-            "value": 946,
+            "name": "北京市",
+            "value": 73,
             "textStyle": {
                 "normal": {
                     "color": "rgb(77,87,57)"
@@ -1383,8 +1383,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5fae\u4fe1",
-            "value": 944,
+            "name": "一级",
+            "value": 72,
             "textStyle": {
                 "normal": {
                     "color": "rgb(117,79,134)"
@@ -1392,8 +1392,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u652f\u63f4",
-            "value": 933,
+            "name": "转为",
+            "value": 72,
             "textStyle": {
                 "normal": {
                     "color": "rgb(141,146,32)"
@@ -1401,8 +1401,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6350\u6b3e\u6350\u7269",
-            "value": 931,
+            "name": "台湾地区",
+            "value": 72,
             "textStyle": {
                 "normal": {
                     "color": "rgb(94,14,131)"
@@ -1410,8 +1410,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u653f\u7b56",
-            "value": 930,
+            "name": "15",
+            "value": 71,
             "textStyle": {
                 "normal": {
                     "color": "rgb(140,109,89)"
@@ -1419,8 +1419,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u63f4\u52a9",
-            "value": 929,
+            "name": "28",
+            "value": 70,
             "textStyle": {
                 "normal": {
                     "color": "rgb(31,72,143)"
@@ -1428,8 +1428,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u9700\u6c42",
-            "value": 928,
+            "name": "时至",
+            "value": 70,
             "textStyle": {
                 "normal": {
                     "color": "rgb(101,123,147)"
@@ -1437,8 +1437,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4f9d\u6cd5",
-            "value": 924,
+            "name": "贵州",
+            "value": 70,
             "textStyle": {
                 "normal": {
                     "color": "rgb(91,159,115)"
@@ -1446,8 +1446,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u91c7\u8d2d",
-            "value": 922,
+            "name": "目前",
+            "value": 68,
             "textStyle": {
                 "normal": {
                     "color": "rgb(40,148,130)"
@@ -1455,8 +1455,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u786e\u4fdd",
-            "value": 922,
+            "name": "责任",
+            "value": 66,
             "textStyle": {
                 "normal": {
                     "color": "rgb(46,55,45)"
@@ -1464,8 +1464,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7ea2\u5341\u5b57\u4f1a",
-            "value": 917,
+            "name": "病毒",
+            "value": 66,
             "textStyle": {
                 "normal": {
                     "color": "rgb(117,80,26)"
@@ -1473,8 +1473,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8d44\u91d1",
-            "value": 916,
+            "name": "全国",
+            "value": 65,
             "textStyle": {
                 "normal": {
                     "color": "rgb(47,116,20)"
@@ -1482,8 +1482,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6309\u7167",
-            "value": 914,
+            "name": "省份",
+            "value": 64,
             "textStyle": {
                 "normal": {
                     "color": "rgb(17,108,151)"
@@ -1491,8 +1491,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6392\u67e5",
-            "value": 896,
+            "name": "计量",
+            "value": 64,
             "textStyle": {
                 "normal": {
                     "color": "rgb(111,35,122)"
@@ -1500,8 +1500,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5168\u4f53",
-            "value": 895,
+            "name": "网站",
+            "value": 63,
             "textStyle": {
                 "normal": {
                     "color": "rgb(23,76,42)"
@@ -1509,8 +1509,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5317\u4eac",
-            "value": 885,
+            "name": "通道",
+            "value": 62,
             "textStyle": {
                 "normal": {
                     "color": "rgb(17,124,21)"
@@ -1518,8 +1518,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5404\u7ea7",
-            "value": 856,
+            "name": "管控",
+            "value": 62,
             "textStyle": {
                 "normal": {
                     "color": "rgb(9,19,119)"
@@ -1527,8 +1527,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u79ef\u6781\u54cd\u5e94",
-            "value": 850,
+            "name": "17",
+            "value": 59,
             "textStyle": {
                 "normal": {
                     "color": "rgb(19,156,129)"
@@ -1536,8 +1536,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5168\u529b",
-            "value": 842,
+            "name": "工作人员",
+            "value": 57,
             "textStyle": {
                 "normal": {
                     "color": "rgb(42,97,91)"
@@ -1545,8 +1545,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5404\u7c7b",
-            "value": 837,
+            "name": "病例",
+            "value": 57,
             "textStyle": {
                 "normal": {
                     "color": "rgb(125,9,78)"
@@ -1554,8 +1554,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8054\u5408\u4f1a",
-            "value": 830,
+            "name": "绿码",
+            "value": 54,
             "textStyle": {
                 "normal": {
                     "color": "rgb(112,0,23)"
@@ -1563,8 +1563,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8857\u9053",
-            "value": 829,
+            "name": "应急",
+            "value": 52,
             "textStyle": {
                 "normal": {
                     "color": "rgb(32,65,79)"
@@ -1572,8 +1572,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5e94\u5bf9",
-            "value": 828,
+            "name": "二级",
+            "value": 52,
             "textStyle": {
                 "normal": {
                     "color": "rgb(87,77,39)"
@@ -1581,8 +1581,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5e7f\u5dde\u5e02",
-            "value": 819,
+            "name": "29",
+            "value": 52,
             "textStyle": {
                 "normal": {
                     "color": "rgb(38,46,44)"
@@ -1590,8 +1590,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5c71\u4e1c\u7701",
-            "value": 810,
+            "name": "我省",
+            "value": 50,
             "textStyle": {
                 "normal": {
                     "color": "rgb(76,16,151)"
@@ -1599,8 +1599,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5fc3\u7406\u54a8\u8be2",
-            "value": 806,
+            "name": "分级",
+            "value": 50,
             "textStyle": {
                 "normal": {
                     "color": "rgb(11,48,79)"
@@ -1608,8 +1608,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5168\u56fd",
-            "value": 800,
+            "name": "我们",
+            "value": 49,
             "textStyle": {
                 "normal": {
                     "color": "rgb(63,156,146)"
@@ -1617,8 +1617,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u7cbe\u795e",
-            "value": 784,
+            "name": "临床",
+            "value": 49,
             "textStyle": {
                 "normal": {
                     "color": "rgb(56,137,83)"
@@ -1626,8 +1626,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u515a\u4e2d\u592e",
-            "value": 780,
+            "name": "检查",
+            "value": 49,
             "textStyle": {
                 "normal": {
                     "color": "rgb(26,149,15)"
@@ -1635,8 +1635,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "100",
-            "value": 778,
+            "name": "调整",
+            "value": 48,
             "textStyle": {
                 "normal": {
                     "color": "rgb(95,47,104)"
@@ -1644,8 +1644,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u516c\u53f8",
-            "value": 767,
+            "name": "楼宇",
+            "value": 48,
             "textStyle": {
                 "normal": {
                     "color": "rgb(131,85,154)"
@@ -1653,8 +1653,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u9632\u62a4\u670d",
-            "value": 767,
+            "name": "问题",
+            "value": 47,
             "textStyle": {
                 "normal": {
                     "color": "rgb(115,58,91)"
@@ -1662,8 +1662,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4ee5\u53ca",
-            "value": 766,
+            "name": "11",
+            "value": 46,
             "textStyle": {
                 "normal": {
                     "color": "rgb(154,94,18)"
@@ -1671,8 +1671,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6210\u7acb",
-            "value": 764,
+            "name": "27",
+            "value": 46,
             "textStyle": {
                 "normal": {
                     "color": "rgb(67,90,146)"
@@ -1680,8 +1680,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5171\u540c",
-            "value": 764,
+            "name": "婆婆",
+            "value": 45,
             "textStyle": {
                 "normal": {
                     "color": "rgb(133,103,112)"
@@ -1689,8 +1689,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u516c\u4f17",
-            "value": 764,
+            "name": "三级",
+            "value": 44,
             "textStyle": {
                 "normal": {
                     "color": "rgb(125,7,117)"
@@ -1698,8 +1698,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53d1\u653e",
-            "value": 761,
+            "name": "21",
+            "value": 43,
             "textStyle": {
                 "normal": {
                     "color": "rgb(17,53,153)"
@@ -1707,8 +1707,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u534f\u8c03",
-            "value": 760,
+            "name": "特殊",
+            "value": 43,
             "textStyle": {
                 "normal": {
                     "color": "rgb(78,134,86)"
@@ -1716,8 +1716,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u5c45\u6c11",
-            "value": 749,
+            "name": "医疗队",
+            "value": 42,
             "textStyle": {
                 "normal": {
                     "color": "rgb(74,72,117)"
@@ -1725,8 +1725,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u9694\u79bb",
-            "value": 741,
+            "name": "治疗",
+            "value": 41,
             "textStyle": {
                 "normal": {
                     "color": "rgb(15,138,103)"
@@ -1734,8 +1734,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u57f9\u8bad",
-            "value": 739,
+            "name": "情况",
+            "value": 40,
             "textStyle": {
                 "normal": {
                     "color": "rgb(21,66,140)"
@@ -1743,8 +1743,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "20",
-            "value": 728,
+            "name": "海关",
+            "value": 40,
             "textStyle": {
                 "normal": {
                     "color": "rgb(63,5,111)"
@@ -1752,8 +1752,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u8d21\u732e",
-            "value": 721,
+            "name": "实施",
+            "value": 40,
             "textStyle": {
                 "normal": {
                     "color": "rgb(7,10,104)"
@@ -1761,8 +1761,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53d1\u751f",
-            "value": 721,
+            "name": "精准",
+            "value": 40,
             "textStyle": {
                 "normal": {
                     "color": "rgb(59,5,97)"
@@ -1770,8 +1770,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u53a6\u95e8\u5e02",
-            "value": 721,
+            "name": "没有",
+            "value": 39,
             "textStyle": {
                 "normal": {
                     "color": "rgb(76,64,93)"
@@ -1779,8 +1779,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u533b\u62a4\u4eba\u5458",
-            "value": 718,
+            "name": "外地",
+            "value": 39,
             "textStyle": {
                 "normal": {
                     "color": "rgb(153,93,13)"
@@ -1788,8 +1788,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u51b3\u7b56",
-            "value": 717,
+            "name": "四级",
+            "value": 36,
             "textStyle": {
                 "normal": {
                     "color": "rgb(30,108,76)"
@@ -1797,8 +1797,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "30",
-            "value": 717,
+            "name": "降到",
+            "value": 36,
             "textStyle": {
                 "normal": {
                     "color": "rgb(36,132,16)"
@@ -1806,8 +1806,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u4e60\u8fd1\u5e73",
-            "value": 714,
+            "name": "体温计",
+            "value": 36,
             "textStyle": {
                 "normal": {
                     "color": "rgb(3,6,104)"
@@ -1815,8 +1815,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u63a5\u6536",
-            "value": 709,
+            "name": "13",
+            "value": 33,
             "textStyle": {
                 "normal": {
                     "color": "rgb(42,113,150)"
@@ -1824,8 +1824,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6e56\u5317\u7701",
-            "value": 705,
+            "name": "群众",
+            "value": 33,
             "textStyle": {
                 "normal": {
                     "color": "rgb(25,60,20)"
@@ -1833,8 +1833,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "2020",
-            "value": 702,
+            "name": "表示",
+            "value": 30,
             "textStyle": {
                 "normal": {
                     "color": "rgb(12,129,57)"
@@ -1842,8 +1842,8 @@ var option_c61d88ede2df46799724e4ef261fa76f = {
             }
         },
         {
-            "name": "\u6211\u4eec",
-            "value": 702,
+            "name": "要求",
+            "value": 30,
             "textStyle": {
                 "normal": {
                     "color": "rgb(155,41,107)"

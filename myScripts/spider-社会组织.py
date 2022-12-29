@@ -7,7 +7,7 @@ from fake_useragent import UserAgent
 startTime = time.time()
 
 # 创建CSV文件，并写入表头信息
-fp = open('中国社会组织_疫情防控.csv','w',newline='',encoding='utf-8-sig')
+fp = open('中国社会组织_疫情防控2022.csv','w',newline='',encoding='utf-8-sig')
 writer = csv.writer(fp)
 writer.writerow(("标题", "时间", "URL", "正文内容", "来源"))
 fp.close()
@@ -25,7 +25,7 @@ def spider_html_info(url):
         text_html = html.fromstring(response)
         
         # 获取下一页链接,先其他元素获取一页链接，保证程序的强壮性
-        next_url = "http://www.chinanpo.gov.cn" + text_html.xpath('/html/body/div[2]/div/ul[1]/li[2]/a[2]/@href')[0]
+        next_url = "https://chinanpo.mca.gov.cn" + text_html.xpath('/html/body/div[2]/div/ul[1]/li[2]/a[2]/@href')[0]
         print("next_url", next_url)
     
         # 获取文章标题

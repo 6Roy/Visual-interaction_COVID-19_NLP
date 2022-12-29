@@ -15,12 +15,12 @@ mpl.rcParams['font.sans-serif'] = ['SimHei']
 
 #------------------------------ 第一步 计算TOP100 ------------------------------
 # 计算中文分词词频TOP100
-datapd = pd.read_csv('dataSets/中国社会组织_疫情防控-5_21.csv')
+datapd = pd.read_csv('C:/Users\Roy/Visual-interaction_COVID-19_NLP/dataSets/yqkx_data-5_21.csv')
 
 cut_words = ""
 all_words = ""
 
-for line in datapd['正文内容']:
+for line in datapd['文章内容']:
     line = str(line)
     seg_list = jieba.cut(line,cut_all=False)
     cut_words = (" ".join(seg_list))
@@ -48,8 +48,8 @@ for (k,v) in c.most_common(50):
 # 过滤
 cut_words = ""
 f = open('C-key.txt', 'w')
-datapd = pd.read_csv('dataSets\\中国社会组织_疫情防控-5_21.csv')
-for line in datapd['正文内容']:
+datapd = pd.read_csv('C:/Users\Roy/Visual-interaction_COVID-19_NLP/dataSets/yqkx_data-5_21.csv')
+for line in datapd['文章内容']:
     line = str(line)
     seg_list = jieba.cut(line,cut_all=False)
     final = ""

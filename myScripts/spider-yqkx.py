@@ -8,20 +8,21 @@ import random
 import urllib.request
 from lxml import etree
 from bs4 import BeautifulSoup
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
 #-------------------------------------------------写入文件-------------------------------------------------
-path = os.getcwd() + "/yqkx_data.csv"
+path = os.getcwd() + "/yqkx_data2022.csv"
 csvfile = open(path, 'a', newline='', encoding = 'utf-8-sig')
 writer = csv.writer(csvfile)
 writer.writerow(('序号','文章标题','发布时间','文章链接','文章内容')) 
 
 #--------------------------------------------疫情快讯-数据抓取---------------------------------------------
 url = "http://society.people.com.cn/GB/369130/431577/431608/index.html"
-driver = webdriver.Chrome() #chromedriver.exe置于python37根目录
-# driver = webdriver.Chrome(r'd:\xxx\chromedriver.exe')
+# driver = webdriver.Chrome() #chromedriver.exe置于python37根目录
+driver = webdriver.Chrome(r'C:\Users\Roy\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe')
 
 driver.implicitly_wait(5)
 chrome_option = webdriver.ChromeOptions()
@@ -29,11 +30,11 @@ driver.get(url) #打开网页网页
 driver.implicitly_wait(6) #等待加载六秒
 
 #-------------------------------------------------获取标题-------------------------------------------------
-titles = driver.find_elements_by_xpath('//div[@class=" p2j_list_lt fl"]/ul/li')
+titles = driver.find_elements(By.XPATH,value='//div[@class=" p2j_list_lt fl"]/ul/li') # 利用xpath定位
 for t in titles:
     print(t.text)
 
-links = driver.find_elements_by_xpath('//div[@class=" p2j_list_lt fl"]/ul/li/a')
+links = driver.find_elements(By.XPATH,value='//div[@class=" p2j_list_lt fl"]/ul/li/a')
 for link in links:
     print(link.get_attribute('href'))
 
@@ -65,7 +66,7 @@ def get_content(url):
         ly = ""
         print("except")
         print(zw)
-    return ly, page
+    return ly, zw
     
 #-------------------------------------------------写入文件-------------------------------------------------
 k = 0

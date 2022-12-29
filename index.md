@@ -1,7 +1,11 @@
 <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+
 <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
 <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
 <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+
 <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
 
 <div id="links" style="line-height: 36px; background-color:black;">
@@ -11,21 +15,20 @@
 
 # 疫情空间数据与舆情数据分析可视化
 
-新型冠状病毒肺炎（COVID-19，简称“新冠肺炎”）疫情肆虐全球多个国家，2020年3月11日，世界卫生组织 (WHO) 正式宣布将新冠肺炎列为全球性大流行病。
-
-在全球抗击新型冠状病毒疫情的过程中，产生了前所未有的大规模疫情数据，利用大数据分析技术和方法能够协助发现病毒传染源、监测疫情发展、调配救援物资，从而更好地进行疫情防控工作。空间数据分析作为大数据分析的重要组成，将数据智能处理、直观展示和交互分析有机地结合，使机器智能和人类智慧深度融合、优势互补，为疫情防控中的分析、指挥和决策提供有效依据和指南。
-
-本项目希望能利用交互式空间数据分析技术，感知和预测疫情发展趋势与关键节点、分析社交媒体话题与情感的动态演变、对社会舆情进行态势感知。
+新型冠状病毒肺炎（COVID-19，简称“新冠肺炎”）疫情肆虐全球多个国家，2020年3月11日，世界卫生组织 (WHO) 正式宣布将新冠肺炎列为全球性大流行病。在全球抗击新型冠状病毒疫情的过程中，产生了前所未有的大规模疫情数据，本项目希望能利用交互式空间数据分析技术，感知和预测疫情发展趋势与关键节点、分析社交媒体话题与情感的动态演变、对社会舆情进行态势感知。
 
 ## 所使用的数据集：
 
 - 疫情统计时空数据，分为国内各省市疫情统计数据及世界各国疫情统计数据，包括从1.19至5.19四个月时间的确诊人数、现存确诊人数、治愈人数、死亡人数等
-- 中国社会组织公共服务平台疫情防控专区新闻1400+篇，包含时间、标题、正文内容、作者等
+- 使用爬虫获取的人民网疫情快讯新闻100篇，包含时间、标题、正文内容、作者等
 - 依据与“新冠肺炎”相关的230个主题关键词进行数据采集的2020年1月1日—2020年2月20日期间共计100万条微博数据
 
-部分数据经爬虫采集，部分数据采用公开数据集；可视化部分采用pyecharts+flask实现动态交互
+部分数据经爬虫采集，部分数据采用公开数据集
 
-## Part 1：疫情空间数据数据可视化态势感知、趋势分析：
+
+## 可视化部分采用pyecharts+flask实现动态交互
+
+## part 1：疫情空间数据数据可视化态势感知、趋势分析：
 
 ### 疫情数据动态交互可视化地图
 
@@ -50,7 +53,6 @@
     <div id="chinaMap" class="maps" style="width:800px; height:600px;display: inline-block;"></div>
 </div>
 
-
 ### 世界疫情数据曲线图
 
 通过曲线图可直观地表现出确诊数据、死亡数据、治愈数据等的变化趋势，可以通过下拉框进行选择所显示的国家：
@@ -64,7 +66,6 @@
     </select>
     <div id="lines" style="width:1000px; height:600px;"></div>
 </div>
-
 
 ### 全国疫情新增确诊人数日历图
 
@@ -85,7 +86,7 @@
 
 此处采用最小二乘法，对logistic增长函数进行拟合。以下将检验最小二乘法拟合的逻辑斯蒂模型是否能贴合实际。
 
-<img src="{{ url_for('static',filename='results/logistic_china.png') }}" style="width:600px; height:500px;">
+`<img src="{{ url_for('static',filename='results/logistic_china.png') }}" style="width:600px; height:500px;">`
 
 本次拟合采用了1月11日到1月27日的累计确诊病例数据作为原始数据，采用最小二乘法拟合逻辑斯蒂曲线，最后经过对逻辑斯蒂模型中R值（增长速率，到达K值的速度）的拟合调整，发现在0.45附近得到的曲线比较贴合我国1月至2月疫情实际情况。从短期来看，2月9日的预测值在4万左右，与实际情况十分贴近，也证明了模型的一定可靠性；但从长期来看，最终值还是相对偏低。
 
@@ -103,8 +104,9 @@
 R值：
 
 国家 | 中国 |美国 |英国 |德国 |意大利 |韩国| 日本
+
 - | :-: | :-: | :-: | :-: | :-: | :-: | -:
-R |0.25 | 0.05 |0.08 |0.09 |0.08 |0.11 |0.08
+  R |0.25 | 0.05 |0.08 |0.09 |0.08 |0.11 |0.08
 
 关于R值的补充说明：逻辑斯蒂模型中R值代表的增长速率不是传统意义上理解的种群增长速度，而是接近种群数量达到环境承载力K值的速度。强烈的人为干预可以**大幅度降低K值**，使得种群数量快速达到最大值附近，疫情扩散得以控制。所以本模型在预测各国最终累计感染人数的功能之外，拟合过程中R值的大小可以反映某个国家面对新冠肺炎采取措施的**有效性和效率**。一般来说，R值越大，该国防疫措施越有效。
 
@@ -132,7 +134,7 @@ RESISTANCES: 用R表示，为抵抗者, 感染者痊愈后获得抗性的人
 
 以下使用SEITR模型对美国疫情基本得到控制的时间进行预测。
 
-<img src="{{ url_for('static',filename='results/seir.png') }}" style="width:600px; height:500px;">
+`<img src="{{ url_for('static',filename='results/seir.png') }}" style="width:600px; height:500px;">`
 
 模型拟合评价：
 
@@ -152,15 +154,14 @@ RESISTANCES: 用R表示，为抵抗者, 感染者痊愈后获得抗性的人
 
 ### 新闻数据分析与可视化
 
-#### 中国社会组织公共服务平台疫情防控专区新闻词云可视化：
+#### 人民网疫情快讯新闻词云可视化：
 
-对中国社会组织公共服务平台疫情防控专区新闻平台上发布的所有文章使用jieba进行分词、获取主题词（取排名前00位），并渲染词云图：
+词云图，也叫文字云，是对文本中出现频率较高的“关键词”予以视觉化的展现，词云图过滤掉大量的低频低质的文本信息，使得浏览者只要一眼扫过文本就可领略文本的主旨。对人民网疫情快讯的100篇新闻使用jieba进行分词、获取主题词（取排名前100位），并渲染词云图：
 
 <div>
     <div id="c61d88ede2df46799724e4ef261fa76f" class="chart-container" style="width:900px; height:500px;"></div>
     <script type="text/javascript" src="{{ url_for('static',filename='wordcloud.js') }}"></script>
 </div>
-
 
 <div>
     <div>
@@ -170,19 +171,13 @@ RESISTANCES: 用R表示，为抵抗者, 感染者痊愈后获得抗性的人
     <div id="wordcloud" style="width:1000px; height:600px;"></div>
 </div>
 
-
-
 ### TF-IDF值
 
 TF-IDF（Term Frequency-InversDocument Frequency）是一种常用于信息处理和数据挖掘的加权技术。该技术采用一种统计方法，根据字词的在文本中出现的次数和在整个语料中出现的文档频率来计算一个字词在整个语料中的重要程度。它的优点是能过滤掉一些常见的却无关紧要本的词语，同时保留影响整个文本的重要字词。
 
+`<img src="{{ url_for('static',filename='results/tfidf.png') }}" style="width:600px; height:500px;">`
 
-<img src="{{ url_for('static',filename='results/tfidf.png') }}" style="width:600px; height:500px;">
-
-输出结果如下图所示，可以看到“疫情”、“组织”、“捐赠”、“社会”、“协会”、“肺炎”、“物资”等都是高频词，也是大众普
-遍关心的主题。
-
-# 层次聚类分析
+### 层次聚类分析
 
 对主题词进行层次聚类分析，层次聚类法的基本过程如下：
 
@@ -192,14 +187,10 @@ TF-IDF（Term Frequency-InversDocument Frequency）是一种常用于信息处�
 
 层次聚类不指定具体的簇数，而只关注簇之间的远近，最终会形成一个树形图，可以表明相应关键词间的联系：
 
-<img src="{{ url_for('static',filename='results/tree_word_50.png') }}" style="width:1000px;">
+`<img src="{{ url_for('static',filename='results/tree_word_50.png') }}" style="width:1000px;">`
 
-可以明显地观察到，主题词可以分为三类，大致对应于三个主题板块：
-- 医院获取物资捐款、志愿者行动
-- 企业复工复产
-- 社会组织抗击疫情
 
-### 微博舆情分析与数据可视化
+## part 3:微博舆情分析与数据可视化
 
 #### 微博主题词词云图：
 
@@ -216,7 +207,6 @@ TF-IDF（Term Frequency-InversDocument Frequency）是一种常用于信息处�
     </div>
     <div id="weibocloud" style="width:1000px; height:600px;"></div>
 </div>
-
 
 #### 微博情感分析
 
