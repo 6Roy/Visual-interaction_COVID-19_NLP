@@ -10,10 +10,9 @@ n = "dataSets/china_provincedata.csv"
 def render_mapcountChina_rate(dateId):
     data = pd.read_csv(n)
     data = data[data['dateId'] == dateId]
-    #print(data['currentConfirmedCount'])
     list_data = list(
         zip(
-            list(data['provinceShortName']), 
+            list(data['provinceName']), 
             list((data['deadCount'] * 1000 // data['confirmedCount']) / 10) # 死亡率: 话说为啥要这么算 ? 直接 deadCount / confirmedCount * 100 不就好了?
         )
     )
@@ -53,7 +52,7 @@ def render_mapcountChina_death(dateId):
     data = pd.read_csv(n)
     data = data[data['dateId'] == dateId]
     #print(data['currentConfirmedCount'])
-    list_data = list(zip(list(data['provinceShortName']), list(data['deadCount'])))
+    list_data = list(zip(list(data['provinceName']), list(data['deadCount'])))
     # [('湖北', 48206), ('广东', 1241), ('河南', 1169), ('浙江', 1145), ..., ('澳门', 10), ('西藏', 1)]
 
 
@@ -87,8 +86,8 @@ def render_mapcountChina_death(dateId):
 def render_mapcountChina_current(dateId): 
     data = pd.read_csv(n)
     data = data[data['dateId'] == dateId]
-    #print(data['currentConfirmedCount'])
-    list_data = list(zip(list(data['provinceShortName']), list(data['confirmedCount'])))
+    list_data = list(zip(list(data['provinceName']), list(data['confirmedCount'])))
+    # print(list_data)
     # [('湖北', 48206), ('广东', 1241), ('河南', 1169), ('浙江', 1145), ..., ('澳门', 10), ('西藏', 1)]
 
 
