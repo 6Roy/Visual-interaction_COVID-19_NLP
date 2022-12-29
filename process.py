@@ -51,7 +51,7 @@ content = content[:51] + old + content[1853:]
 
 # %%
 
-with open('wordcloud.js', 'w', encoding='utf-8') as f:
+with open('templates/wordcloud.js', 'w', encoding='utf-8') as f:
     for line in content:
         f.write(line)
 
