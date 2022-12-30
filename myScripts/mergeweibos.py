@@ -8,7 +8,7 @@ def merge_orgin():
 
     df2 = pd.read_csv('dataSets/nCoV_100k_train.labled.csv')  #打开csv文件，注意编码问题，保存到df2中
     df2 = df2[['微博id','微博发布时间','发布人账号','微博中文内容','微博图片','微博视频']]
-    df1 = pd.concat([df1,df2],axis=0,ignore_index=True)  #将df2数据与df1合并
+    df1 = pd.concat([df1,df2],axis=0,ignore_index=True)  #将df2数据与df1合
 
     df3 = pd.read_csv('dataSets/nCoV_900k_train.unlabled.csv')  #打开csv文件，注意编码问题，保存到df2中
     df3 = df3[['微博id','微博发布时间','发布人账号','微博中文内容','微博图片','微博视频']]
